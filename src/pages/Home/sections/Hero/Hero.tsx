@@ -25,7 +25,7 @@ const Hero = () => {
         width: "75%",
         borderRadius: "50%",
         border: `1px solid ${theme.palette.primary.contrastText}`
-        
+
     }));
 
     return (
@@ -48,15 +48,15 @@ const Hero = () => {
                             <Typography color="primary.contrastText" variant="h2" textAlign="center">Desenvolvedor web</Typography>
                             <Grid container display='flex' justifyContent='center' spacing={3} pt={3} mb={4}>
                                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
-<StyledButton onClick={() => window.open("https://drive.google.com/uc?export=download&id=19JmuRs8XG4ioQnMzMz9INmCnED_nFx61", "_blank")}>
+                                    <StyledButton onClick={() => window.open("https://drive.google.com/uc?export=download&id=19JmuRs8XG4ioQnMzMz9INmCnED_nFx61", "_blank")}>
                                         <DownloadIcon />
                                         <Typography>Donwload CV</Typography>
                                     </StyledButton>
                                 </Grid>
                                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
-                                    <StyledButton onClick={() => console.log("contact")}>
+                                    <StyledButton onClick={() => window.open("https://wa.me/5562992502728", "_blank")}>
                                         <EmailIcon />
-                                        <Typography>Contactme</Typography>
+                                        <Typography>Contact me</Typography>
                                     </StyledButton>
                                 </Grid>
                             </Grid>
