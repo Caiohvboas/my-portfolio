@@ -7,7 +7,7 @@ import { ImHtmlFive } from "react-icons/im";
 import { FaSass } from "react-icons/fa";
 
 const About = () => {
-    const StyledAbout = styled("div")(({ theme }) => ({
+    const StyledAbout = styled("div")(() => ({
         backgroundColor: 'gray',
         height: "auto",
         minHeight: "50vh",
